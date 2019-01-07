@@ -1,0 +1,151 @@
+body {
+  background-color: #fff;
+  font-size: 14px;
+  margin: 0;
+}
+
+h1,h2,h3,h4,h5{
+  margin: 0 0 10px 0;
+  padding: 0;
+  font-weight: normal;
+}
+header {
+  margin-top: 20px;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+  color: #777;
+}
+
+.header-title-area {
+  margin-top :40px;
+  margin-bottom: 30px;
+}
+
+.logo {
+  font-size: 32px;
+  color: #333;
+  text-align: center;
+}
+
+.header-navigation {
+  width: 100%;
+  background-color: black;
+  padding: 20px 0;
+}
+
+.header-navigation:after {
+  clear: both;
+  display: block;
+  content: " ";
+}
+
+.header-navigation li {
+  float: left;
+  padding: 0 30px;
+  text-align: center;
+  list-style-type: none;
+}
+
+.header-navigation li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.left-contents {
+  width: 600px;
+  margin-left:30px;
+  margin-right: 20px;
+  float: left;
+}
+
+.right-contents {
+  width: 310px;
+  float: left;
+  margin-right: 30px;
+  margin-left: 10px;
+}
+
+.blog-list {
+  width: 600px;
+  margin-bottom: 30px;
+}
+
+.blog-list:last-child {
+  margin-bottom: 0;
+}
+
+.blog-image {
+  width:150px;
+  height: 150px;
+  float: left;
+  margin-right: 10px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #efefef;
+}
+
+.blog-text {
+  font-size: 10px;
+}
+
+.text-title {
+  border-bottom: solid 1px #777;
+  padding: 8px;
+}
+
+.text-title-color {
+  color: black;
+}
+
+.sample-blog-list {
+  width: 300px;
+  margin-bottom: 15px;
+}
+
+.sample-blog-list:last-child {
+  margin-bottom: 0;
+}
+
+.sample-blog-image {
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin-right: 10px;
+  border: solid 2px #efefef;
+}
+
+.sample-blog-date {
+  font-size: 10px;
+}
+
+.sample-blog-title {
+  font-size: 15px;
+}
+
+.main:after {
+  clear: both;
+  display: block;
+  content: " ";
+}
+
+footer {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  border-top: solid 1px #777;
+}
+
+.copyright {
+  color: #777;
+  text-align: center;
+  padding-top: 20px;
+}
